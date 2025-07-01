@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_splash_jpg">
+
+
+    <ImageView
+        android:id="@+id/imgTop"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/encourage"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:id="@+id/txtTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player 2"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/fredokaoneregular"
+        app:layout_constraintBottom_toBottomOf="@id/imgTop"
+        app:layout_constraintStart_toEndOf="@id/imgTop"
+        android:layout_marginStart="16dp" />
+
+
+    <ImageView
+        android:id="@+id/imgBottom"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/encourage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/txtBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player 1"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/fredokaoneregular"
+        app:layout_constraintBottom_toBottomOf="@id/imgBottom"
+        app:layout_constraintStart_toEndOf="@id/imgBottom"
+        android:layout_marginStart="16dp" />
+
+
+    <View
+        android:id="@+id/dotTop"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginStart="6dp"
+        android:background="@drawable/circle_pink"
+        app:layout_constraintStart_toEndOf="@id/txtTop"
+        app:layout_constraintBottom_toBottomOf="@id/txtTop"/>
+
+
+    <View
+        android:id="@+id/dotBottom"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginStart="6dp"
+        android:background="@drawable/circle_blue"
+        app:layout_constraintStart_toEndOf="@id/txtBottom"
+        app:layout_constraintBottom_toBottomOf="@id/txtBottom"/>
+
+
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gameGrid"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:rowCount="3"
+        app:columnCount="3"
+        app:layout_constraintTop_toBottomOf="@id/imgTop"
+        app:layout_constraintBottom_toTopOf="@id/imgBottom"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintDimensionRatio="1:1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
