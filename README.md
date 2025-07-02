@@ -32,13 +32,11 @@ A fully functional **Tic Tac Toe** Android application with animated screens, cu
 
 ## 🖼️ Screenshots
 
-| Name Entry | Game Board | Winner Screen | Draw Screen |
-|------------|------------|----------------|-------------|
-| *(Insert screenshots here)* | *(Insert screenshots here)* | *(Insert screenshots here)* | *(Insert screenshots here)* |
-
-> *(Place your screenshots inside a `screenshots/` folder in your repo)*
-
----
+![WhatsApp Image 2025-07-03 at 02 02 11_d9f5df6b](https://github.com/user-attachments/assets/124a3ddd-a500-400b-9328-758b43502db1)
+![WhatsApp Image 2025-07-03 at 02 02 11_ce5443ce](https://github.com/user-attachments/assets/3256a481-f13c-4c66-b339-910d1d5c209b)
+![WhatsApp Image 2025-07-03 at 02 02 10_00054bc9](https://github.com/user-attachments/assets/c9c5c874-7a5a-408f-995b-ec01179cd2ad)
+![WhatsApp Image 2025-07-03 at 02 02 11_c24dc64d](https://github.com/user-attachments/assets/78be5e02-d81f-49a1-9447-54f2e264fd5c)
+![WhatsApp Image 2025-07-03 at 02 02 10_e4617e2a](https://github.com/user-attachments/assets/004ea30d-2c6f-4ff8-a82e-13d959385d3a)
 
 ## 🚀 Getting Started
 
